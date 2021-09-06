@@ -2,4 +2,4 @@
 
 alt = float(input("Digite sua altura:"))
 ideal = format((72.7*alt)-58, ".2f")
-print(f"O peso ideal é: {ideal}")
+print(f"O peso ideal é: {ideal}") 
