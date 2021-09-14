@@ -1,3 +1,5 @@
+#Descubra se um número é par ou impar
+
 a = int(input("Digite um número: "))
 
 sobra = a % 2
