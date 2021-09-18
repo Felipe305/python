@@ -15,8 +15,8 @@
 #        FGTS (11%)                      : R$  121,00
 #        Total de descontos              : R$  165,00
 #        Salário Liquido                 : R$  935,00
-
-
+print("cachorro",end= " ")
+print("Macaco")
 valorPorHora = float(input("Informe o valor da hora trabalhada: "))
 quantidadeHoras = float(input("Informe a quantidade de horas trabalhadas no mes: "))
 
@@ -50,5 +50,7 @@ print("Sindicato: R${}".format(valorSindicato))
 print("FGTS: R${}".format(valorFGTS)) #FGTS A EMPRESA QUE VAI PAGAR, NÃO DESCONTA!!
 print("Total de descontos: R${}".format(totalDescontos))
 print("Salario liquido: R${}".format(salarioLiquido))
+
+
 
 
