@@ -2,7 +2,7 @@
 #(1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
 
 dia = int(input("Digite um número que corresponda um dia da semana. (Lembrando que uma semana tem 7 dias e começa no domingo: "))
-
+print("processando...")
 if dia == 1:
     print("Domingo")
 elif dia == 2:
