@@ -3,7 +3,7 @@
 #para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
 
 populacaoA = 80000
-crescimentoA = 1.03
+crescimentoA = 0.3
 populacaoB = 200000
 crescimentoB = 0.015
 
