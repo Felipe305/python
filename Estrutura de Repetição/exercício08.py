@@ -5,7 +5,6 @@ for i in range(5):
     numero = float(input("Digite um número: "))
     soma += numero
 
-resultado = numero + soma
+print("A soma dos números são: {:.2f} ".format(soma))
 media = soma/5
-print("A soma é {resultado}".format(resultado))
 print("A média é {:.2f}".format(media))
