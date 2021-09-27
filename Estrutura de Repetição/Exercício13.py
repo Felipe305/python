@@ -14,4 +14,11 @@ for i in range(1,11):
 
 print(f"Números pares: {par}")
 
-print(f"Números impares: {impar}")
+print(f"Números impar: {impar}")
+
+
+
+        
+
+
+    
