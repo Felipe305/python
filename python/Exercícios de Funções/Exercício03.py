@@ -1,8 +1,15 @@
-#Faça um programa, com uma função que necessite de três argumentos, e que forneça a soma desses três argumentos.
+
+
 
 def soma(a,b,c):
-    print(f"A = {a}, B = {b} e C = {c}")
+    print(f"A = {a}, B = {b} e C = {c} ")
     s = a + b + c
-    print(f" A soma a + b + c é: {s}")
+    print(f"A soma A + B + C = {s}")
 
-soma(8,7,5)
+
+a = int(input("Digite um número: "))
+b = int(input("Digite um número: "))
+c = int(input("Digite um número: "))
+soma(a,b,c)
+
+#Teste 

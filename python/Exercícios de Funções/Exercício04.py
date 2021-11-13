@@ -1,15 +1,11 @@
+# Faça um programa, com uma função que necessite de um argumento. A função retorna o valor de caractere ‘P’, se seu argumento for positivo, e ‘N’, se seu argumento for zero ou negativo.
+
+def valor(p):
+    if p >= 0:
+        print(f"O valor P é positivo")
+    else:
+        print(f"O valor N é negativo")
 
 
-
-def soma(a,b,c):
-    print(f"A = {a}, B = {b} e C = {c} ")
-    s = a + b + c
-    print(f"A soma A + B + C = {s}")
-
-
-a = int(input("Digite um número: "))
-b = int(input("Digite um número: "))
-c = int(input("Digite um número: "))
-soma(a,b,c)
-
-#Teste 
+p = int(input("Digite um número: "))
+valor(p)
